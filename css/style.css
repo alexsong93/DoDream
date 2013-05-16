@@ -50,27 +50,27 @@ body {
 #about {
 	position: relative;
 	float:left;
-	background-image:url("about_bgd.png"); 
+	background-image:url("../images/about_bgd.png"); 
 	height:413px;
 }
 
 #photos {
 	float:right;
-	background-image:url("photos_bgd.png");
+	background-image:url("../images/photos_bgd.png");
 	height:240px;
 }
 
 #videos {
 	float:right;
 	margin-top:20px;
-	background-image:url("videos_bgd.png");
+	background-image:url("../images/videos_bgd.png");
 	height:379px;
 }
 
 #events {
 	float:left;
 	margin-top:20px;
-	background-image:url("events_bgd.png");
+	background-image:url("../images/events_bgd.png");
 	height:203px;
 }
 
@@ -78,7 +78,7 @@ body {
 	float:right;
 	margin-top:20px;
 	margin-right:20px;
-	background-image:url("members_bgd.png");
+	background-image:url("../images/members_bgd.png");
 	height:203px;
 }
 
