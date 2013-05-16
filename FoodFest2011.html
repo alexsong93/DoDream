@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photos</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+	<style>
+    #galleria { 
+    	width: 850px; height: 500px; background: #000 
+    	clear:both;
+    	margin:auto;
+    }
+	</style>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="galleria/galleria-1.2.9.min.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<a id="logo" href="index.html">DoDream</a>
+		</div>
+		<div class="topmenu">
+			<ul id="menulist">
+				<a href="about.html">About</a>
+				<a href="photos.html"><strong>Photos</strong></a>
+				<a href="videos.html">Videos</a>
+				<a href="#">Events</a>
+				<a href="#">Members</a>
+				<a href="#">Contact</a>
+			</ul>
+		</div>
+		<div class="albumtitle">
+			<a style="padding-top:30px; float:right; text-decoration:none; color:#333333" href="photos.html">Albums</a>
+			<h2>FoodFest 2011</h2>
+		</div>
+		<div id="galleria">
+			<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/533568_161372547358010_1565752770_n.jpg">
+    		<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn1/539911_161372550691343_487773502_n.jpg">
+    		<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/40861_161372554024676_1814523134_n.jpg">
+    		<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/17381_161372577358007_2091691611_n.jpg">
+    		<img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-ash3/14046_161372600691338_301116977_n.jpg">
+    		<img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-ash3/534022_161372607358004_869147053_n.jpg">
+    		<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash4/3636_161372630691335_361404719_n.jpg">
+    		<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/534042_161372650691333_848003066_n.jpg">
+    		<img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc1/603896_161372654024666_1248795023_n.jpg">
+		</div>
+		<div>
+			<center style="padding-top:10px;">DoDream performed "Youngnam" on the BC plaza</center>
+		</div>
+
+		<script>
+    		Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    	    Galleria.run('#galleria');
+		</script>
+
+		<div class="footer">
+			Copyright &copy 2013 Alex Song. All Rights Reserved.
+		</div>
+	</div>
+</body>
+</html>
+
