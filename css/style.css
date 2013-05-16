@@ -1,6 +1,6 @@
 body {
-	background-color:#FFFFFD;
-	font-family:Century Gothic,sans-serif;
+	background-color:#F6F9ED;
+	font-family:Century Gothic, sans-serif;
 }
 
 .container {
@@ -96,7 +96,7 @@ body {
 }
 
 .mainphoto {
-	padding-top:40px;
+	padding-top:75px;
 	float:right;
 	margin:0 auto;
 	width:455px;
@@ -104,20 +104,21 @@ body {
 
 .mainphoto img {
 	margin-top:20px;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	float:right;
 }
 
 .photoalbums {
 	clear:both; 
 	padding-top:30px;
-	width:840px;
 	margin: auto;
 
 }
 
 .photoalbums .pic {
 	display:inline-block;
+	float:left;
+	width:25%;
 }
 
 .albumtitle {

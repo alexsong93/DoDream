@@ -3,11 +3,11 @@ $(document).ready(function(){
 	
 	$("body").fadeIn(750);
 
-	$('a').click(function(event){
+	/*$('a').click(function(event){
 		event.preventDefault();
 		linkLocation = this.href;
 		$('body').fadeOut(750, redirectPage);
-	});
+	});*/
 
 	function redirectPage() {
 		window.location = linkLocation;
