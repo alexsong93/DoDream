@@ -14,10 +14,10 @@ $(document).ready(function(){
 	}
 
 	$('#menulist a').mouseenter(function(){
-		$(this).fadeTo('fast', 1);	
+		$(this).fadeTo('fast', 0.5);	
 	});
 	$('#menulist a').mouseleave(function(){
-		$(this).fadeTo('fast', 0.5);
+		$(this).fadeTo('fast', 1);
 	});
 
 	$('.main img').mouseenter(function(){
