@@ -10,32 +10,38 @@ body {
 }
 
 p, table {
-	font-family:'lora', Helvetica, serif;
+	font-family:'Lora', Helvetica, serif;
 	font-size:18px;
 }
 
 .container {
-	margin:auto;
+	margin: 0 auto;
 	width:1000px;
 	overflow:hidden;
 }
 
 .topbar {
-	background-color:#3E3E3E;
+	background-color:#505050;
 	height:30px;
 	color:grey;
+	width:100%;
+	border-bottom:2px solid grey;
 }
+
+.topdescription {
+	margin:0 auto;
+	width:1000px;
+	height:30px;
+	overflow:hidden;
+}
+
 	#description {
-		display:inline-block;
-		position:relative; 
-		margin:0 0;
-		left:172px;
-		width:500px;
+		display:inline-block; 
+		float:left;
 	}
 	#email {
 		display:inline-block;
-		position:relative;
-		left:530px;
+		float:right;
 	}
 	.topbar p {
 		margin-top:3px;
@@ -43,9 +49,34 @@ p, table {
 		font-size:14px;
 	}
 
+/*
+	#topborderleft {
+		position:absolute;
+		background-color:#C70000;
+		height:2px;
+		width:449.66px;
+	}
+
+	#topbordercenter {
+		position:absolute;
+		background-color:#1000AA; 
+		height:2px;
+		width:449.66px;
+		left:449.66px;
+	}
+
+	#topborderright {
+		position:absolute;	
+		background-color:#CCCB00;
+		height:2px;
+		width:449.66px;
+		left:899.32px;
+	}
+*/
+
 .header {
 	height:120px;
-}
+}	
 
 .logo {
 	float: left;
@@ -89,27 +120,27 @@ p, table {
 #about {
 	position: relative;
 	float:left;
-	background-image:url("../images/about_bgd.png"); 
+	background-image:url("../images/about_bgd.PNG"); 
 	height:413px;
 }
 
 #photos {
 	float:right;
-	background-image:url("../images/photos_bgd.png");
+	background-image:url("../images/photos_bgd.PNG");
 	height:240px;
 }
 
 #videos {
 	float:right;
 	margin-top:20px;
-	background-image:url("../images/videos_bgd.png");
+	background-image:url("../images/videos_bgd.PNG");
 	height:379px;
 }
 
 #events {
 	float:left;
 	margin-top:20px;
-	background-image:url("../images/events_bgd.png");
+	background-image:url("../images/events_bgd.PNG");
 	height:203px;
 }
 
@@ -117,7 +148,7 @@ p, table {
 	float:right;
 	margin-top:20px;
 	margin-right:20px;
-	background-image:url("../images/members_bgd.png");
+	background-image:url("../images/members_bgd.PNG");
 	height:203px;
 }
 
@@ -127,21 +158,31 @@ p, table {
 	background-color: #505050;
 	color:grey;
 	border-top:2px solid grey;
+	width:100%;
+}
+
+.footerdescription {
+	width:1000px;
+	height:50px;
+	margin:0 auto;
 }
 
 	#copyright {
-		position:relative;
 		display:inline-block;
-		left:172px;
-		width:500px;
-		margin-top:5px;
+		float:left;
 	}
-	#search {
+
+	#followus {
+		display:inline-block;
+		float:right;
+	}
+
+	/*#search {
 		position:relative;
 		display:inline-block;
 		margin-top:10px;
 		left:452px;
-	}
+	}*/
 	.footer p {
 		margin-top:0;
 		font-family:Century Gothic, sans-serif;
