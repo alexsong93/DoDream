@@ -4,6 +4,7 @@
 	<title>Contact</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/contact.css"/>
 	<link href='https://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -14,7 +15,7 @@
 	<div class="topbar">
 		<div class="topdescription">
 			<p id="description">Duke Korean Traditional Percussion Group</p>
-			<p id="email">dodream@duke.edu</p>
+			<p id="email">dodream.duke@gmail.com</p>
 		</div>
 	</div>
 
@@ -46,7 +47,16 @@
 				</div>
 
 				<div>
-					<p>We'd love to hear back from you! Please fill out the form below if you have any questions/comments. You can also follow us on facebook and twitter.</p>
+					<p>We'd love to hear back from you! Please fill out the form below or email us at dodream.duke@gmail.com if you have any questions and/or comments. You can also follow us on facebook and twitter!</p>
+					<form id="contactForm" name="contactForm" method="post" action="">
+						<h3>Name</h3>
+						<input type="text" name="name" placeholder="name" class="formInfo"/ required>
+						<h3>Email</h3>
+						<input type="text" name="email" placeholder="email" class="formInfo"/ required>
+						<h3>Message</h3>
+						<textarea class="formMessage"></textarea>
+						<button name="submit" type="submit" class="submitButton" required>Submit</button>
+					</form>
 				</div>
 				<br>
 			</div>
